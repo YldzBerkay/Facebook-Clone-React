@@ -12,7 +12,7 @@ function RightArea(){
         <div className="Rside">
         <div className="Profile">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUolWPtYATiwWEwGVKRkVbfdX7vqwX-hSvRg&usqp=CAU"
+            src="https://media.licdn.com/dms/image/C4D03AQH2kADncvbaxg/profile-displayphoto-shrink_800_800/0/1652256214819?e=2147483647&v=beta&t=CuDIwtvsC9MivmjVX7sNWSW0xygWpzK9Pw5Ee8EFAz4"
             alt="dp"
           />
           <div className="RsideText">Berkay Arda Yıldız</div>

@@ -56,7 +56,7 @@ function Header() {
             <FaBell className="iconThird" />
           </div>
           <div className="iconThirdHeader">
-            <img src="https://avatars.githubusercontent.com/u/75256748?v=4" alt="profile" />
+            <img src="https://media.licdn.com/dms/image/C4D03AQH2kADncvbaxg/profile-displayphoto-shrink_800_800/0/1652256214819?e=2147483647&v=beta&t=CuDIwtvsC9MivmjVX7sNWSW0xygWpzK9Pw5Ee8EFAz4" alt="profile" />
           </div>
         </div>
       </div>
