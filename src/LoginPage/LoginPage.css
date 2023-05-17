@@ -1,0 +1,135 @@
+*{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+.Login{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.facebook{
+    padding: 0.5rem;
+    font-size: 4rem;
+    color: #1877f2;
+    font-weight: 770;
+}
+.title{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 450;
+}
+.loginContainer{
+    border: white .3rem solid;
+    background-color: white;
+    height: 20rem;
+    width: 23rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12.5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12.5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 8px 1px;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btnLink{
+    text-decoration: none;
+    color: white;
+}
+.forgotPassword a{
+    color: #1877f2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.forgotPassword a:hover{
+    text-decoration: underline;
+}
+.btnCreateAccount{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #42B72A;
+    border: none;
+    padding: 15px 20px;
+    text-emphasis: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 60%;
+    font-weight: normal;
+    border-radius: .5rem;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.btnCreateAccount:hover{
+    background-color: #36A420;
+}
+.brCreate{
+    display: block;
+    content: "";
+    margin-top: 20px;
+}
+.createPage a{
+    font-size: 1rem;
+    color:black;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.createPage a:hover{
+    text-decoration: underline;
+}
+
+.createPage{
+    font-size: 0.8rem;
+    padding-left: 10%;
+}
+
+.loginDetails{
+    border-bottom: .1rem solid #F0F2F5; 
+}

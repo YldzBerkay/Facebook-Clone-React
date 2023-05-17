@@ -1,0 +1,150 @@
+
+*{
+    margin: 0%;
+}
+
+body{
+    font:1.6rem helvetica;
+    background-color: #f0f2f5;
+    margin-right: 0;
+}
+
+.logo img{
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.iconSecondHeader{
+    font-size: 2rem;
+}
+
+.iconHome{
+    color: #1877f2;
+}
+
+.iconThirdHeader{
+    font-size: 2rem;
+}
+
+.homePage{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border: .1rem black;
+    margin-right: 0;
+    z-index: 999999999;
+
+}
+
+.header > div:first-child,
+.header > div:last-child {
+    flex-grow: 1;
+}
+
+.firstHeader{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    border-radius: 1.5rem ;
+    height: 38px;
+    margin-left: 0.5rem;
+    max-width: 250px;
+}
+.searchBar{
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    outline-width: 40px;
+    background-color: #f0f2f5;
+    border: none;
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+.searchIcon{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: #606770;
+    display: block;
+}
+
+.searchBar:focus{
+    outline: none;
+}
+
+.searchBar::placeholder{
+    color: #606770;
+}
+
+.secondHeader{
+    display: flex;
+    align-items: center;
+    
+}
+
+.iconSecondHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 40px;
+    height: 40px;
+    margin: .2rem;
+    
+}
+
+.iconSecondHeader:hover{
+    background-color: #f0f2f5;
+    border-radius: 1rem;;
+}
+
+.iconSecondHeader:active .iconSecond{
+    color: #1877f2;
+}
+
+#iconHome{
+    color: #1877f2;
+}
+
+.iconSecond{
+    height: 25px;
+}
+
+.thirdHeader{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    justify-content: flex-end;
+}
+
+.iconThirdHeader{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+
+.iconThird{
+    height: 20px;
+    width: 20px;
+}
+
+.iconThirdHeader img{
+    height: 40px;
+    border-radius: 100% ;
+}
